@@ -17,20 +17,16 @@ The HTTP verbs mean
 ## <a href="#routes" name="routes">Routes constructed</a>
 
      /routes/
-       index.js
-       name.js
-       foo.js
-       bar/
-         foo.js
+       index.js 
+       posts/
          index.js
+         :post.js
 
 Generates
 
     / (index.js)
-    /name (name.js)
-    /foo (foo.js)
-    /bar (bar/index.js)
-    /bar/foo (bar/foo.js)
+    /posts (posts/index.js)
+    /posts/:post/ (posts/:post.js)
 
 ## <a href="#api" name="api">Routes API</a>
 

@@ -47,5 +47,8 @@ Generates
         },
         apply: function (res, ignoreReceiver, args) {
             // POST /name args[0]
+        },
+        keys: function (res) {
+            // return the urls supported /<one_of_keys>/
         }
     }

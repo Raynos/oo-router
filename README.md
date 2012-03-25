@@ -31,3 +31,25 @@ Generates
     /foo (foo.js)
     /bar (bar/index.js)
     /bar/foo (bar/foo.js)
+
+## <a href="#api" name="api">Routes API</a>
+
+    // index.js
+    module.exports = {
+        deleteProperty: function (res, name) {
+            // res.req === req
+            // DELETE /name
+        },
+        get: function (res, name) {
+            // GET /name
+        },
+        has: function (res, name) {
+            // HEAD /name
+        },
+        set: function (res, name, body) {
+            // PUT /name body
+        },
+        apply: function (res, ignoreReceiver, args) {
+            // POST /name args[0]
+        }
+    }

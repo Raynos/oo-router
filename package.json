@@ -7,8 +7,11 @@
         "test": "make test"  
     },
     "dependencies": {
+        "pd": "0.6.3",
+        "after": "0.3.3"
     },
     "devDependencies": {
-        "mocha": "1.0.0"
+        "mocha": "1.0.0",
+        "request": "2.9.153"
     }
 }

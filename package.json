@@ -1,0 +1,14 @@
+{
+    "name": "oo-router", 
+    "version": "0.0.1",
+    "description": "a HTTP router based on an OO interface", 
+    "author": "Raynos <raynos2@gmail.com>",
+    "scripts": {
+        "test": "make test"  
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+        "mocha": "1.0.0"
+    }
+}

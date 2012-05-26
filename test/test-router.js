@@ -7,10 +7,10 @@ var router = require(".."),
 
 suite("Test API", function () {
     suiteSetup(function (done) {
-        router(path.join(__dirname, "routes"), function (err, router) {
-            http.createServer(router).listen(8004, function () {
-                done()
-            })
+        http.createServer(
+            router(path.join(__dirname, "routes"))
+        ).listen(8004, function () {
+            done()
         })
     })
 

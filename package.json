@@ -3,11 +3,15 @@
     "version": "0.0.1",
     "description": "a HTTP router based on an OO interface", 
     "author": "Raynos <raynos2@gmail.com>",
+    "engines": {
+        "node": "0.7.x"
+    },
     "scripts": {
         "test": "make test"  
     },
     "dependencies": {
         "pd": "0.6.3",
+        "direct-proxies": "0.1.5",
         "after": "0.3.3"
     },
     "devDependencies": {
